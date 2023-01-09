@@ -41,7 +41,7 @@ npm run dev
 
 Você pode visualiza os projetos pelos links abaixo:
 
-- [Live Preview]()
+- [Live Preview](https://vercel.com/joeseraphy/joelson-portfollio)
 
 ## 📝 License
 
