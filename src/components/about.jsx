@@ -34,7 +34,7 @@ export function About() {
           </p>
           <a
             className="flex mx-auto md:mx-0 items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"
-            href="../assets/curriculo.pdf"
+            href="curriculo.pdf"
             download={true}
             target="_blank"
           >
