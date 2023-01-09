@@ -46,13 +46,13 @@ export function Projects() {
   return (
     <div
       name="projetos"
-      className="py-24 w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
+      className="w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
     >
       <div
-        className="max-w-screen-xl mx-auto pt-10 grid items-center 
+        className="max-w-screen-xl mx-auto py-40  grid items-center 
       justify-center text-center h-full px-4 gap-x-16 md:flex-row"
       >
-        <div className="mb-8">
+        <div className="">
           <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
             Projetos
           </h2>

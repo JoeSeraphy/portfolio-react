@@ -78,12 +78,12 @@ export function Technology() {
   return (
     <div
       name="tecnologias"
-      className="w-full py-24 bg-gradient-to-b from-zinc-700 to-zinc-900"
+      className="w-full h-sreen bg-gradient-to-b from-zinc-700 to-zinc-900"
     >
       <div>
         <div
-          className="max-w-screen-xl mx-auto p-4 grid justify-center 
-        w-full h-full text-white text-center mb-8"
+          className="max-w-screen-xl mx-auto py-40 p-4 grid justify-center 
+        w-full h-full text-white text-center"
         >
           <div>
             <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">

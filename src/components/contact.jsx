@@ -6,14 +6,14 @@ export function Contact() {
   return (
     <div
       name="contatos"
-      className="w-full py-32 bg-gradient-to-b from-zinc-900 to-zinc-700"
+      className="w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
     >
       <div
-        className="max-w-screen-xl mx-auto p-4 grid justify-center 
-        w-full h-full text-white text-center mb-8"
+        className="max-w-screen-xl mx-auto py-40 p-4 grid justify-center 
+        w-full h-full text-white text-center"
       >
         <div>
-          <div className="pt-10 text-center md:text-left md:pt-0">
+          <div className="text-center md:text-left md:pt-0">
             <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
               Contatos
             </h2>

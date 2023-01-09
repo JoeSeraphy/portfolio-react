@@ -7,10 +7,10 @@ export function Home() {
   return (
     <div
       name="home"
-      className="py-32 w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
+      className="h-screen w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
     >
       <div
-        className="max-w-screen-xl mx-auto py-8 flex flex-col items-center 
+        className="max-w-screen-xl mx-auto pt-40 flex flex-col items-center 
       justify-center w-full px-4 gap-x-16 md:flex-row"
       >
         <div className="text-center md:text-left">

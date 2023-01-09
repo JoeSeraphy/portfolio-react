@@ -27,13 +27,13 @@ export function Footer() {
     },
   ];
   return (
-    <div className="w-full h-30 px-4 bg-zinc-900  items-center">
-      <div className="max-w-screen-xl flex py-2 justify-between items-center mx-auto">
-        <img src={logo} alt="logo" className="w-16" />
-        <span className="text-xs text-white font-light">
+    <div className="w-full py-8 px-4 bg-zinc-900  items-center">
+      <div className="max-w-screen-xl grid md:flex py-2 gap-y-8 justify-center md:justify-between items-center mx-auto">
+        <img src={logo} alt="logo" className="w-16 mx-auto" />
+        <span className="text-xs text-white font-light mx-auto">
           Desenvolvido com amor e carinho por joelson silva
         </span>
-        <div className="flex gap-x-4 ">
+        <div className="flex gap-x-4 mx-auto">
           {social.map(({ id, icon, link }) => (
             <div key={id}>
               <a href={link} target="_blank">

@@ -6,10 +6,10 @@ export function About() {
   return (
     <div
       name="sobre"
-      className="w-full h-screen bg-gradient-to-b from-zinc-700 to-zinc-900"
+      className="w-full bg-gradient-to-b from-zinc-700 to-zinc-900"
     >
       <div
-        className="max-w-screen-xl mx-auto md:pt-0 flex flex-col items-center 
+        className="max-w-screen-xl mx-auto py-52 flex flex-col items-center 
       justify-center h-full px-4 gap-x-16 md:flex-row"
       >
         <img
@@ -18,10 +18,10 @@ export function About() {
           className="w-96 rounded-full border-4 border-green-500"
         />
         <div className="pt-10 text-center max-w-full md:text-left md:pt-0">
-          <h2 className="pt-6 text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
+          <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
             Sobre
           </h2>
-          <p className="text-white text-xl py-2 max-w-md">Rio de janeiro, RJ</p>
+          <p className="text-white text-xl py-6 max-w-md">Rio de janeiro, RJ</p>
           <p className="text-white text-lg py-4 font-light max-w-full">
             Nascido e criado e umas das cominudades do Rio, prazer me chamo
             Joelson Silva, hoje eu tenho 30 anos, solteiro, sou cristão, luto
