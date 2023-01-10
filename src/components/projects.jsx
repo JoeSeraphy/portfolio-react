@@ -3,8 +3,8 @@ import spacey from "../assets/imagens/projeto4.png";
 import pokedex from "../assets/imagens/projeto2.jpg";
 import buscarGithub from "../assets/imagens/projeto1.png";
 import breve from "../assets/imagens/breve.jpg";
-/*import lista from "../assets/imagens/";
 import countdown from "../assets/imagens/";
+/*import lista from "../assets/imagens/";
 import embreve from "../assets/imagens";*/
 
 export function Projects() {
@@ -32,7 +32,10 @@ export function Projects() {
     },
     {
       id: 4,
-      src: breve,
+      src: countdown,
+      alt: "desafio countdown",
+      link: "https://desafio-countdown-livid.vercel.app/",
+      code: "https://github.com/JoeSeraphy/desafioCountdown",
     },
     {
       id: 5,
