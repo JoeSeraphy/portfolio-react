@@ -3,7 +3,7 @@ import spacey from "../assets/imagens/projeto4.png";
 import pokedex from "../assets/imagens/projeto2.jpg";
 import buscarGithub from "../assets/imagens/projeto1.png";
 import breve from "../assets/imagens/breve.jpg";
-import countdown from "../assets/imagens/";
+import countdown from "../assets/imagens/countdown.png";
 /*import lista from "../assets/imagens/";
 import embreve from "../assets/imagens";*/
 
