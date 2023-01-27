@@ -16,20 +16,37 @@ export function About() {
           src={joe}
           alt="joelson"
           className="w-96 rounded-full border-4 border-green-500"
+          data-aos="fade-right"
+          data-aos-delay="500"
         />
         <div className="pt-10 text-center max-w-full md:text-left md:pt-0">
-          <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
+          <h2
+            className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+            data-aos="fade-down"
+            data-aos-delay="400"
+          >
             Sobre
           </h2>
-          <p className="text-white text-xl py-6 max-w-md">Rio de janeiro, RJ</p>
-          <p className="text-white text-lg py-4 font-light max-w-full">
-            Nascido e criado e umas das cominudades do Rio, prazer me chamo
+          <p
+            className="text-white text-xl py-6 max-w-md"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            Rio de janeiro, RJ
+          </p>
+          <p
+            className="text-white text-lg py-4 font-light max-w-full"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          >
+            Nascido e criado e umas das comunidades do Rio, prazer me chamo
             Joelson Silva, hoje eu tenho 30 anos, solteiro, sou cristão, luto
             Jiu-jitsu, desenhista, curto assistir series, filmes e animes.{" "}
             <br />
             Bom no começo do ano de 2022 comecei os meus estudos em programação
             na instituição Rocketseat e venho me aprimorando com os estudos e
-            praticas, pretendo voltar para faculdade e cursar ADS esse ano.
+            praticas, e estou cursando Análise e Desenvolvimento de Sistemas na
+            IBMR.
             <br />E estou atrás do meu primeiro emprego como Front-End Jr.
           </p>
           <a
@@ -37,6 +54,8 @@ export function About() {
             href="curriculo.pdf"
             download={true}
             target="_blank"
+            data-aos="fade-up"
+            data-aos-delay="600"
           >
             <BsDownload size={24} color="#fff" />
             Currículo

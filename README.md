@@ -18,6 +18,7 @@ Este Projeto foi desenvolvido usando seguintes tecnolias:
 - [ReactJS](https://reactjs.org)
 - [ViteJS](https://vitejs.dev)
 - [Tailwind Css](https://tailwindcss.com)
+- [Aos](https://www.npmjs.com/package/aos)
 
 ## 🚀 Getting started
 

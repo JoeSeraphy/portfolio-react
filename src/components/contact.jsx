@@ -14,14 +14,26 @@ export function Contact() {
       >
         <div>
           <div className="text-center md:text-left md:pt-0">
-            <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
+            <h2
+              className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
               Contatos
             </h2>
-            <p className="text-lg py-6 text-white text-center">
+            <p
+              className="text-lg py-6 text-white text-center"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               Para entrar em contato
             </p>
           </div>
-          <div className="text-left grid grid-cols-1 justify-center items-center mt-20">
+          <div
+            className="text-left grid grid-cols-1 justify-center items-center mt-20"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             <p className="text-xl py-4">Celular: (21) 97993-4197</p>
 
             <a
@@ -38,7 +50,7 @@ export function Contact() {
             <a
               className="flex items-center justify-center text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500  hover:bg-blue-500 duration-300"
               href="mailto:joelson.s@outlook.com"
-              atl="whastapp"
+              atl="email"
             >
               <HiOutlineMail size={24} color="#fff" />
               Email

@@ -18,24 +18,21 @@ export function Projects() {
     },
     {
       id: 2,
-      src: pokedex,
-      alt: "pokedex",
-      link: "",
-      code: "https://github.com/JoeSeraphy/pokedex-api",
-    },
-    {
-      id: 3,
       src: buscarGithub,
       alt: "buscador de perfil github",
       link: "https://buscar-perfil-github.vercel.app",
       code: "https://github.com/JoeSeraphy/busca-de-perfil-github-api",
     },
     {
-      id: 4,
+      id: 3,
       src: countdown,
       alt: "desafio countdown",
       link: "https://desafio-countdown-livid.vercel.app/",
       code: "https://github.com/JoeSeraphy/desafioCountdown",
+    },
+    {
+      id: 4,
+      src: breve,
     },
     {
       id: 5,
@@ -55,15 +52,27 @@ export function Projects() {
         className="max-w-screen-xl mx-auto py-40  grid items-center 
       justify-center text-center h-full px-4 gap-x-16 md:flex-row"
       >
-        <div className="">
-          <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
+        <div>
+          <h2
+            className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+            data-aos="fade-down"
+            data-aos-delay="400"
+          >
             Projetos
           </h2>
-          <p className="text-lg py-6 text-white">
+          <p
+            className="text-lg py-6 text-white"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             Conheçam alguns dos meus trabalhos de estudos
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div
+          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+        >
           {projetos.map(({ id, src, alt, link, code }) => (
             <div key={id} className="shadow-md shadow-green-500 rounded-lg">
               <img

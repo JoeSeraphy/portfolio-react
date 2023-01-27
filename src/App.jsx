@@ -6,7 +6,15 @@ import { Technology } from "./components/technology";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  Aos.init({
+    duration: 1300,
+    offset: 0,
+  });
+
   return (
     <div>
       <NavBar />

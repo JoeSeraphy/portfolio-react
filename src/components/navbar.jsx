@@ -30,10 +30,16 @@ export function NavBar() {
   ];
 
   return (
-    <div className="w-full h-20 px-4 bg-zinc-900 fixed items-center">
+    <div
+      className="w-full h-20 px-4 bg-zinc-900 fixed items-center z-10"
+      data-aos="fade-down"
+      data-aos-delay="200"
+    >
       <div className="max-w-screen-xl flex py-2 justify-between items-center mx-auto">
-        <div>
-          <img src={logo} alt="logo" className="w-16" />
+        <div className="cursor-pointer">
+          <Link to={links[0].link} smooth duration={500}>
+            <img src={logo} alt="logo" className="w-16" />
+          </Link>
         </div>
 
         <ul className="hidden md:flex">
@@ -48,10 +54,7 @@ export function NavBar() {
             </li>
           ))}
         </ul>
-        <div
-          onClick={() => setNav(!nav)}
-          className="cursor-pointer z-10 md:hidden"
-        >
+        <div onClick={() => setNav(!nav)} className="cursor-pointer md:hidden">
           {nav ? (
             <FaTimes size={30} color="#fff" />
           ) : (

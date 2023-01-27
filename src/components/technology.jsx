@@ -10,6 +10,9 @@ import figma from "../assets/imagens/figma.svg";
 import styledComponent from "../assets/imagens/sc.png";
 import tailwind from "../assets/imagens/tailwind-css.png";
 import node from "../assets/imagens/node-js.svg";
+import vite from "../assets/imagens/vitejs.svg";
+import next from "../assets/imagens/nextjs.svg";
+import docker from "../assets/imagens/docker.svg";
 
 export function Technology() {
   const tech = [
@@ -73,6 +76,24 @@ export function Technology() {
       title: "Styled Components",
       style: "shadow-pink-400",
     },
+    {
+      id: 11,
+      src: next,
+      title: "NextJs",
+      style: "shadow-zinc-100",
+    },
+    {
+      id: 12,
+      src: vite,
+      title: "ViteJs",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 13,
+      src: docker,
+      title: "Docker",
+      style: "shadow-cyan-200",
+    },
   ];
 
   return (
@@ -86,14 +107,26 @@ export function Technology() {
         w-full h-full text-white text-center"
         >
           <div>
-            <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
+            <h2
+              className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+              data-aos="fade-down"
+              data-aos-delay="400"
+            >
               Tecnologias
             </h2>
-            <p className="text-lg py-6 text-white">
+            <p
+              className="text-lg py-6 text-white"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               Estes são as tecnologias com quais trabalho
             </p>
           </div>
-          <div className="w-full grid grid-cols sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
+          <div
+            className="w-full grid grid-cols sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
             {tech.map(({ id, src, title, style }) => (
               <div
                 key={id}
