@@ -22,14 +22,14 @@ export function Home() {
             Olá, seja bem-vindo, eu sou
           </p>
           <h2
-            className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+            className="text-4xl sm:text-6xl font-medium text-white"
             data-aos="fade-down"
             data-aos-delay="400"
           >
             Joelson Silva
           </h2>
           <p
-            className="text-white text-xl py-4 max-w-md underline decoration-green-500"
+            className="text-white text-xl py-4 max-w-md "
             data-aos="fade-down"
             data-aos-delay="400"
           >
