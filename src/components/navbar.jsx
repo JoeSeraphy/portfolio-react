@@ -37,7 +37,7 @@ export function NavBar() {
     >
       <div className="max-w-screen-xl flex py-2 justify-between items-center mx-auto">
         <div className="cursor-pointer">
-          <Link to={links[0].link} smooth duration={500}>
+          <Link to={links[0].link} smooth duration={200}>
             <img src={logo} alt="logo" className="w-16" />
           </Link>
         </div>
@@ -48,7 +48,7 @@ export function NavBar() {
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-white hover:text-blue-300 hover:scale-105 hover:underline duration-200"
             >
-              <Link to={link} smooth duration={500}>
+              <Link to={link} smooth duration={200}>
                 {link}
               </Link>
             </li>
@@ -63,7 +63,7 @@ export function NavBar() {
         </div>
 
         {nav && (
-          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-zinc-900 duration-200">
+          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-screen h-screen bg-zinc-900 duration-200">
             {links.map(({ id, link }) => (
               <li
                 key={id}
@@ -73,7 +73,7 @@ export function NavBar() {
                   onClick={() => setNav(!nav)}
                   to={link}
                   smooth
-                  duration={500}
+                  duration={200}
                 >
                   {link}
                 </Link>

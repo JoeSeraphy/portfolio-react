@@ -110,14 +110,14 @@ export function Technology() {
             <h2
               className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
               data-aos="fade-down"
-              data-aos-delay="400"
+              data-aos-delay="200"
             >
               Tecnologias
             </h2>
             <p
               className="text-lg py-6 text-white"
               data-aos="fade-up"
-              data-aos-delay="500"
+              data-aos-delay="200"
             >
               Estes são as tecnologias com quais trabalho
             </p>
@@ -125,7 +125,7 @@ export function Technology() {
           <div
             className="w-full grid grid-cols sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="200"
           >
             {tech.map(({ id, src, title, style }) => (
               <div

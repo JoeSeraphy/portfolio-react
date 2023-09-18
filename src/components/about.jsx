@@ -17,49 +17,50 @@ export function About() {
           alt="joelson"
           className="w-96 rounded-full border-4 border-green-500"
           data-aos="fade-right"
-          data-aos-delay="500"
+          data-aos-delay="200"
         />
         <div className="pt-10 text-center max-w-full md:text-left md:pt-0">
           <h2
             className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
             data-aos="fade-down"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             Sobre
           </h2>
           <p
             className="text-white text-xl py-6 max-w-md"
             data-aos="fade-left"
-            data-aos-delay="500"
+            data-aos-delay="200"
           >
             Rio de janeiro, RJ
           </p>
           <p
             className="text-white text-lg py-4 font-light max-w-full"
             data-aos="fade-left"
-            data-aos-delay="500"
+            data-aos-delay="200"
           >
             Nascido e criado e umas das comunidades do Rio, prazer me chamo
-            Joelson Silva, hoje eu tenho 30 anos, solteiro, sou cristão, luto
-            Jiu-jitsu, desenhista, curto assistir series, filmes e animes.{" "}
+            Joelson Silva, solteiro, cristão, pratico Jiu-jitsu, desenhista,
+            curto assistir series, filmes e animes. <br />
             <br />
-            Bom no começo do ano de 2022 comecei os meus estudos em programação
-            na instituição Rocketseat e venho me aprimorando com os estudos e
-            praticas, e estou cursando Análise e Desenvolvimento de Sistemas na
-            IBMR.
-            <br />E estou atrás do meu primeiro emprego como Front-End Jr.
+            Estudei programação na instituição Rocketseat e venho me aprimorando
+            com os estudos e praticas, e estou no 2ª semestre em Análise e
+            Desenvolvimento de Sistemas na IBMR.
+            <br />
+            Como Desenvolvedor Front-end, crio presells, landingPages e
+            Criativos tudo que você precisar para o seu Negocio no Digital
           </p>
-          <a
+          {/* <a
             className="flex mx-auto md:mx-0 items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"
             href="curriculo.pdf"
             download={true}
             target="_blank"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="200"
           >
             <BsDownload size={24} color="#fff" />
             Currículo
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

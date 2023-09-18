@@ -17,14 +17,14 @@ export function Contact() {
             <h2
               className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
               data-aos="fade-down"
-              data-aos-delay="400"
+              data-aos-delay="200"
             >
               Contatos
             </h2>
             <p
               className="text-lg py-6 text-white text-center"
               data-aos="fade-up"
-              data-aos-delay="500"
+              data-aos-delay="200"
             >
               Para entrar em contato
             </p>
@@ -32,7 +32,7 @@ export function Contact() {
           <div
             className="text-left grid grid-cols-1 justify-center items-center mt-20"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="200"
           >
             <p className="text-xl py-4">Celular: (21) 97993-4197</p>
 

@@ -17,28 +17,28 @@ export function Home() {
           <p
             className="text-white text-xl font-light max-w-md"
             data-aos="fade-down"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             Olá, seja bem-vindo, eu sou
           </p>
           <h2
             className="text-4xl sm:text-6xl font-medium text-white"
             data-aos="fade-down"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             Joelson Silva
           </h2>
           <p
             className="text-white text-xl py-4 max-w-md "
             data-aos="fade-down"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             Desenvolvedor Front-End
           </p>
           <div
             className="flex items-center gap-x-6"
             data-aos="fade-up"
-            data-aos-delay="600"
+            data-aos-delay="300"
           >
             <a
               className="flex items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"

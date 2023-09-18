@@ -56,22 +56,22 @@ export function Projects() {
           <h2
             className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
             data-aos="fade-down"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             Projetos
           </h2>
           <p
             className="text-lg py-6 text-white"
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-delay="200"
           >
-            Conheçam alguns dos meus trabalhos de estudos
+            Conheçam alguns dos meus trabalhos
           </p>
         </div>
         <div
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
           data-aos="zoom-in"
-          data-aos-delay="600"
+          data-aos-delay="200"
         >
           {projetos.map(({ id, src, alt, link, code }) => (
             <div key={id} className="shadow-md shadow-green-500 rounded-lg">
