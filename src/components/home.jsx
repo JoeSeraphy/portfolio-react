@@ -7,13 +7,13 @@ export function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-zinc-900 to-zinc-700 "
+      className="min-h-screen w-screen bg-gradient-to-b from-zinc-900 to-zinc-700 "
     >
       <div
-        className="max-w-screen-xl mx-auto pt-40 flex flex-col items-center 
-      justify-center w-full px-4 gap-x-16 md:flex-row"
+        className="max-w-screen-xl border-red-500 border mx-auto pt-40 flex flex-col items-center 
+      justify-center w-full px-4 gap-x-16 md:flex-row lg:flex lg:justify-between "
       >
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left  border-red-500 border">
           <p
             className="text-white text-xl font-light max-w-md"
             data-aos="fade-down"
@@ -33,7 +33,7 @@ export function Home() {
             data-aos="fade-down"
             data-aos-delay="200"
           >
-            Desenvolvedor Front-End
+            Desenvolvedor Front-End React
           </p>
           <div
             className="flex items-center gap-x-6"
@@ -58,7 +58,11 @@ export function Home() {
             </a>
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-delay="500">
+        <div
+          className="border-red-500 border mt-4"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
           <img
             className="border-b-4 border-blue-500"
             src={heroImage}

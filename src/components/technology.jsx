@@ -15,7 +15,7 @@ import next from "../assets/imagens/nextjs.svg";
 import docker from "../assets/imagens/docker.svg";
 
 export function Technology() {
-  const tech = [
+  const techs = [
     {
       id: 1,
       src: html,
@@ -72,24 +72,18 @@ export function Technology() {
     },
     {
       id: 10,
-      src: styledComponent,
-      title: "Styled Components",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 11,
       src: next,
       title: "NextJs",
       style: "shadow-zinc-100",
     },
     {
-      id: 12,
+      id: 11,
       src: vite,
       title: "ViteJs",
       style: "shadow-purple-400",
     },
     {
-      id: 13,
+      id: 12,
       src: docker,
       title: "Docker",
       style: "shadow-cyan-200",
@@ -99,48 +93,46 @@ export function Technology() {
   return (
     <div
       name="tecnologias"
-      className="w-full h-sreen bg-gradient-to-b from-zinc-700 to-zinc-900"
+      className="w-screen bg-gradient-to-b from-zinc-700 to-zinc-900 grid justify-center items-center"
     >
-      <div>
-        <div
-          className="max-w-screen-xl mx-auto py-40 p-4 grid justify-center 
+      <div
+        className=" border-red-500 border max-w-screen-xl  py-40 p-4 grid justify-center 
         w-full h-full text-white text-center"
-        >
-          <div>
-            <h2
-              className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
-              Tecnologias
-            </h2>
-            <p
-              className="text-lg py-6 text-white"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              Estes são as tecnologias com quais trabalho
-            </p>
-          </div>
-          <div
-            className="w-full grid grid-cols sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0"
+      >
+        <div className="mx-auto grid items-center justify-center  border-red-500 border">
+          <h2
+            className="text-4xl  border-red-500 border sm:text-6xl font-medium text-white underline decoration-blue-500"
+            data-aos="fade-down"
+            data-aos-delay="200"
+          >
+            Tecnologias
+          </h2>
+          <p
+            className="mt-4 text-white"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            {tech.map(({ id, src, title, style }) => (
-              <div
-                key={id}
-                className={` shadow-md ${style} hover:scale-105 duration-500 px-4 py-2 rounded-lg`}
-              >
-                <img
-                  src={src}
-                  alt={title}
-                  className="w-20 mx-auto rounded-lg"
-                />
-                <p>{title}</p>
-              </div>
-            ))}
-          </div>
+            Estes são as tecnologias com quais trabalho
+          </p>
+        </div>
+        <div
+          className=" border-red-500 border mt-8 grid grid-cols sm:grid-cols-5 gap-8 sm:px-0"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          {techs.map((tech) => (
+            <div
+              key={tech.id}
+              className={` shadow-md ${tech.style} hover:scale-105 duration-500 px-4 py-2 rounded-lg`}
+            >
+              <img
+                src={tech.src}
+                alt={tech.title}
+                className="w-20 mx-auto rounded-lg"
+              />
+              <p>{tech.title}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

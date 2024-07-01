@@ -6,11 +6,11 @@ export function About() {
   return (
     <div
       name="sobre"
-      className="w-full bg-gradient-to-b from-zinc-700 to-zinc-900"
+      className="w-screen bg-gradient-to-b from-zinc-700 to-zinc-900"
     >
       <div
-        className="max-w-screen-xl mx-auto py-52 flex flex-col items-center 
-      justify-center h-full px-4 gap-x-16 md:flex-row"
+        className="max-w-screen-xl  border-red-500 border mx-auto py-52 flex flex-col items-center 
+      justify-center px-4 md:flex-row lg:flex lg:justify-between"
       >
         <img
           src={joe}
@@ -19,23 +19,23 @@ export function About() {
           data-aos="fade-right"
           data-aos-delay="200"
         />
-        <div className="pt-10 text-center max-w-full md:text-left md:pt-0">
+        <div className="pt-10 lg:pl-4 border-red-500 border md:text-left md:pt-0">
           <h2
-            className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
+            className="text-4xl sm:text-6xl font-medium text-center text-white underline decoration-blue-500"
             data-aos="fade-down"
             data-aos-delay="200"
           >
             Sobre
           </h2>
           <p
-            className="text-white text-xl py-6 max-w-md"
+            className="text-white text-center py-6"
             data-aos="fade-left"
             data-aos-delay="200"
           >
             Rio de janeiro, RJ
           </p>
           <p
-            className="text-white text-lg py-4 font-light max-w-full"
+            className="text-white  py-4 font-light"
             data-aos="fade-left"
             data-aos-delay="200"
           >
@@ -44,11 +44,9 @@ export function About() {
             curto assistir series, filmes e animes. <br />
             <br />
             Estudei programação na instituição Rocketseat e venho me aprimorando
-            com os estudos e praticas, e estou no 2ª semestre em Análise e
+            com os estudos e práticas, e estou no 3⁠º semestre em Análise e
             Desenvolvimento de Sistemas na IBMR.
             <br />
-            Como Desenvolvedor Front-end, crio presells, landingPages e
-            Criativos tudo que você precisar para o seu Negocio no Digital
           </p>
           {/* <a
             className="flex mx-auto md:mx-0 items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"

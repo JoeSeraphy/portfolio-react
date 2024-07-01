@@ -31,13 +31,13 @@ export function NavBar() {
 
   return (
     <div
-      className="w-full h-20 px-4 bg-zinc-900 fixed items-center z-10"
+      className="px-4 py-2 bg-zinc-900 fixed justify-between w-screen items-center z-10"
       data-aos="fade-down"
       data-aos-delay="200"
     >
       <div className="max-w-screen-xl flex py-2 justify-between items-center mx-auto">
         <div className="cursor-pointer">
-          <Link to={links[0].link} smooth duration={200}>
+          <Link to={links[0].link} smooth duration={400}>
             <img src={logo} alt="logo" className="w-16" />
           </Link>
         </div>
@@ -48,7 +48,7 @@ export function NavBar() {
               key={id}
               className="px-4 cursor-pointer capitalize font-medium text-white hover:text-blue-300 hover:scale-105 hover:underline duration-200"
             >
-              <Link to={link} smooth duration={200}>
+              <Link to={link} smooth duration={400}>
                 {link}
               </Link>
             </li>
@@ -73,7 +73,7 @@ export function NavBar() {
                   onClick={() => setNav(!nav)}
                   to={link}
                   smooth
-                  duration={200}
+                  duration={400}
                 >
                   {link}
                 </Link>

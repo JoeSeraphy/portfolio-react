@@ -35,7 +35,7 @@ export function Footer() {
   ];
   return (
     <div className="w-full py-8 px-4 bg-zinc-900  items-center">
-      <div className="max-w-screen-xl grid md:flex py-2 gap-y-8 justify-center md:justify-between items-center mx-auto">
+      <div className="max-w-screen-xl  border-red-500 border grid md:flex py-2 gap-y-8 justify-center md:justify-between items-center mx-auto">
         <Link to={links[0].link} smooth duration={500}>
           <img
             src={logo}
@@ -47,7 +47,7 @@ export function Footer() {
         <span className="text-xs text-white font-light mx-auto md:mx-0">
           Desenvolvido com amor e carinho por joelson silva
         </span>
-        <div className="flex gap-x-4 mx-auto md:mx-0">
+        <div className="flex gap-x-4 mx-auto md:mx-0  border-red-500 border">
           {social.map(({ id, icon, link }) => (
             <div key={id}>
               <a href={link} target="_blank">

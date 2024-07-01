@@ -13,6 +13,7 @@ export function Projects() {
       id: 1,
       src: spacey,
       alt: "spacey",
+      description: " ",
       link: "https://page-spacey.vercel.app",
       code: "https://github.com/JoeSeraphy/landing-page-SpaceY",
     },
@@ -20,6 +21,7 @@ export function Projects() {
       id: 2,
       src: buscarGithub,
       alt: "buscador de perfil github",
+      description: " ",
       link: "https://buscar-perfil-github.vercel.app",
       code: "https://github.com/JoeSeraphy/busca-de-perfil-github-api",
     },
@@ -27,6 +29,7 @@ export function Projects() {
       id: 3,
       src: countdown,
       alt: "desafio countdown",
+      description: " ",
       link: "https://desafio-countdown-livid.vercel.app/",
       code: "https://github.com/JoeSeraphy/desafioCountdown",
     },
@@ -46,13 +49,13 @@ export function Projects() {
   return (
     <div
       name="projetos"
-      className="w-full bg-gradient-to-b from-zinc-900 to-zinc-700"
+      className="bg-gradient-to-b w-screen from-zinc-900 to-zinc-700 grid justify-center items-center"
     >
       <div
-        className="max-w-screen-xl mx-auto py-40  grid items-center 
-      justify-center text-center h-full px-4 gap-x-16 md:flex-row"
+        className="max-w-screen-xl border-red-500 border py-40 grid items-center 
+      justify-center text-center"
       >
-        <div>
+        <div className=" grid justify-center items-center text-center">
           <h2
             className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
             data-aos="fade-down"
@@ -61,36 +64,40 @@ export function Projects() {
             Projetos
           </h2>
           <p
-            className="text-lg py-6 text-white"
+            className="mt-4 text-white"
             data-aos="fade-up"
             data-aos-delay="200"
           >
             Conheçam alguns dos meus trabalhos
           </p>
         </div>
+
         <div
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0"
+          className="grid mt-8 sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0"
           data-aos="zoom-in"
           data-aos-delay="200"
         >
-          {projetos.map(({ id, src, alt, link, code }) => (
-            <div key={id} className="shadow-md shadow-green-500 rounded-lg">
+          {projetos.map((projeto) => (
+            <div
+              key={projeto.id}
+              className="shadow-md shadow-green-500 rounded-lg"
+            >
               <img
-                src={src}
-                alt={alt}
+                src={projeto.src}
+                alt={projeto.alt}
                 className="rounded-md duration-200 hover:scale-105"
               />
 
               <div className="flex items-center justify-center text-white">
                 <a
-                  href={link}
+                  href={projeto.link}
                   target="_blank"
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Visualizar
                 </a>
                 <a
-                  href={code}
+                  href={projeto.code}
                   target="_blank"
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
