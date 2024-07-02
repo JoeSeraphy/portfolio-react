@@ -30,12 +30,8 @@ export function NavBar() {
   ];
 
   return (
-    <div
-      className="px-4 py-2 bg-zinc-900 fixed justify-between w-screen items-center z-10"
-      data-aos="fade-down"
-      data-aos-delay="200"
-    >
-      <div className="max-w-screen-xl flex py-2 justify-between items-center mx-auto">
+    <div className="px-4 py-2 bg-zinc-900 fixed justify-center w-screen items-center z-10">
+      <div className="max-w-screen-xl flex py-2 justify-between mx-auto items-center">
         <div className="cursor-pointer">
           <Link to={links[0].link} smooth duration={400}>
             <img src={logo} alt="logo" className="w-16" />

@@ -93,33 +93,23 @@ export function Technology() {
   return (
     <div
       name="tecnologias"
-      className="w-screen bg-gradient-to-b from-zinc-700 to-zinc-900 grid justify-center items-center"
+      className="bg-gradient-to-b from-zinc-700 to-zinc-900 grid justify-center items-center"
     >
       <div
-        className=" border-red-500 border max-w-screen-xl  py-40 p-4 grid justify-center 
-        w-full h-full text-white text-center"
+        className="max-w-screen-xl  py-40 p-4 grid justify-center 
+         text-white text-center"
+        data-aos="zoom-in"
+        data-aos-durantion="200"
       >
-        <div className="mx-auto grid items-center justify-center  border-red-500 border">
-          <h2
-            className="text-4xl  border-red-500 border sm:text-6xl font-medium text-white underline decoration-blue-500"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
+        <div className="mx-auto grid items-center justify-center">
+          <h2 className="text-4xl  sm:text-6xl font-medium text-white underline decoration-blue-500">
             Tecnologias
           </h2>
-          <p
-            className="mt-4 text-white"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <p className="mt-4 text-white">
             Estes são as tecnologias com quais trabalho
           </p>
         </div>
-        <div
-          className=" border-red-500 border mt-8 grid grid-cols sm:grid-cols-5 gap-8 sm:px-0"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
+        <div className="mt-8 grid grid-cols sm:grid-cols-6 gap-8 sm:px-0">
           {techs.map((tech) => (
             <div
               key={tech.id}

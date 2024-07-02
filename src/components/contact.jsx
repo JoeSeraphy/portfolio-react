@@ -6,34 +6,24 @@ export function Contact() {
   return (
     <div
       name="contatos"
-      className="w-screen bg-gradient-to-b from-zinc-900 to-zinc-700 grid justify-center items-center"
+      className="bg-gradient-to-b from-zinc-900 to-zinc-700 grid justify-center items-center"
     >
       <div
-        className="max-w-screen-xl  border-red-500 border py-40 p-4 grid justify-center 
+        className="max-w-screen-xl  py-40 p-4 grid justify-center 
          text-white"
+        data-aos="zoom-in"
+        data-aos-durantion="200"
       >
         <div>
-          <div className="text-center md:text-left md:pt-0  mx-auto border-red-500 border">
-            <h2
-              className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
+          <div className="text-center md:text-left md:pt-0  mx-auto">
+            <h2 className="text-4xl sm:text-6xl font-medium text-white underline decoration-blue-500">
               Contatos
             </h2>
-            <p
-              className="text-lg py-6 text-white text-center"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
+            <p className="text-lg py-6 text-white text-center">
               Para entrar em contato
             </p>
           </div>
-          <div
-            className="text-left grid grid-cols-1 justify-center  border-red-500 border items-center mt-20"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div className="text-left grid grid-cols-1 justify-center items-center mt-20">
             <p className="text-xl py-4">Celular: (21) 97993-4197</p>
 
             <a
