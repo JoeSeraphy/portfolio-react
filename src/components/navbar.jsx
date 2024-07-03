@@ -42,7 +42,7 @@ export function NavBar() {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-white hover:text-blue-300 hover:scale-105 hover:underline duration-200"
+              className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-110 hover:text-green-500 duration-200"
             >
               <Link to={link} smooth duration={400}>
                 {link}
@@ -63,7 +63,7 @@ export function NavBar() {
             {links.map(({ id, link }) => (
               <li
                 key={id}
-                className="px-4 cursor-pointer capitalize text-4xl py-4 text-white hover:text-blue-300 hover:scale-105 hover:underline duration-200"
+                className="px-4 cursor-pointer capitalize text-4xl py-4 text-white underline-animation"
               >
                 <Link
                   onClick={() => setNav(!nav)}

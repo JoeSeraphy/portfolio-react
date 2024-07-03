@@ -15,3 +15,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@layer components {
+  .underline-animation::after {
+    @apply absolute -bottom-7 left-0 h-1 w-full origin-bottom-right scale-x-0 bg-gradient-to-r from-blue-500 to-green-500 transition-transform duration-300 content-[''] hover:origin-bottom-left hover:scale-x-100;
+  }
+}
