@@ -21,7 +21,7 @@ export function About() {
             Sobre
           </h2>
           <p className="text-white text-center lg:text-left py-6">
-            Rio de janeiro, RJ
+            Rio de janeiro, RJgit 
           </p>
           <p className="text-white text-center lg:text-left py-4 font-light">
             Sou Joelson Silva, desenvolvedor em formação e apaixonado por tecnologia. 
