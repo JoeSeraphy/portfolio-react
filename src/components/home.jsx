@@ -23,7 +23,7 @@ export function Home() {
             Joelson Silva
           </h2>
           <p className="text-white text-xl py-4 max-w-md ">
-            Desenvolvedor Front-End React
+            Desenvolvedor FullStack
           </p>
           <div className="flex items-center gap-x-6">
             <a

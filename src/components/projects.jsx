@@ -26,7 +26,7 @@ export function Projects() {
       link: "https://easybank-joeseraphy.vercel.app/",
       code: "https://github.com/JoeSeraphy/easybank-frontendMentor",
     },
-    {
+    /*{
       id: 3,
       src: breve,
       alt: "",
@@ -45,7 +45,7 @@ export function Projects() {
     {
       id: 6,
       src: breve,
-    },
+    },*/
   ];
   return (
     <div
@@ -64,7 +64,7 @@ export function Projects() {
           <p className="mt-4 text-white">Conheçam alguns dos meus trabalhos</p>
         </div>
 
-        <div className="text-center grid justify-center mt-8 mx-auto  sm:grid-cols-2 md:grid-cols-3 gap-8 px-4">
+        <div className="text-center grid justify-center gap-10 mt-8  sm:grid-cols-2 md:grid-cols-3  px-4">
           {projetos.map((projeto) => (
             <div
               key={projeto.id}

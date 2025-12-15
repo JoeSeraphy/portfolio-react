@@ -1,6 +1,6 @@
 import React from "react";
 import { BsDownload } from "react-icons/bs";
-import joe from "../assets/imagens/joe.jpeg";
+import joe from "../assets/imagens/joe-ia.png";
 
 export function About() {
   return (
@@ -24,14 +24,13 @@ export function About() {
             Rio de janeiro, RJ
           </p>
           <p className="text-white text-center lg:text-left py-4 font-light">
-            Nascido e criado e umas das comunidades do Rio, prazer me chamo
-            Joelson Silva, solteiro, cristão, pratico Jiu-jitsu, desenhista,
-            curto assistir series, filmes e animes. <br />
-            <br />
-            Estudei programação na instituição Rocketseat e venho me aprimorando
-            com os estudos e práticas, e estou no 3⁠º semestre em Análise e
-            Desenvolvimento de Sistemas na IBMR.
-            <br />
+            Sou Joelson Silva, desenvolvedor em formação e apaixonado por tecnologia. 
+            Nascido e criado em uma comunidade do Rio, trago comigo valores de dedicação, disciplina e resiliência. <br/><br/>
+            Iniciei meus estudos em programação pela Rocketseat, onde adquiri uma base sólida em desenvolvimento web e boas práticas de código. 
+            Atualmente estou no 4º período de Análise e Desenvolvimento de Sistemas na IBMR, sempre buscando evoluir com novos desafios e projetos.<br/><br/>
+            Além da tecnologia, pratico Jiu-jitsu, gosto de desenhar e sou fã de séries, filmes e animes — atividades que estimulam minha criatividade e disciplina.
+            Meu objetivo é crescer como desenvolvedor, contribuir em projetos inovadores e gerar impacto positivo através da tecnologia.
+
           </p>
           {/* <a
             className="flex mx-auto md:mx-0 items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"

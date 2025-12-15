@@ -13,6 +13,7 @@ import node from "../assets/imagens/node-js.svg";
 import vite from "../assets/imagens/vitejs.svg";
 import next from "../assets/imagens/nextjs.svg";
 import docker from "../assets/imagens/docker.svg";
+import go from "../assets/imagens/golang.svg";
 
 export function Technology() {
   const techs = [
@@ -78,9 +79,9 @@ export function Technology() {
     },
     {
       id: 11,
-      src: vite,
-      title: "ViteJs",
-      style: "shadow-purple-400",
+      src: go,
+      title: "Go",
+      style: "shadow-cyan-400",
     },
     {
       id: 12,
