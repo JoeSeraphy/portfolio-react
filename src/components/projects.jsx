@@ -1,6 +1,7 @@
 import spacey from "../assets/imagens/projeto4.png";
 import easybank from "../assets/imagens/projeto1.png";
-
+import ageCal from "../assets/imagens/age-cal.png"
+import playerStranger from "../assets/imagens/playerStranger.png"
 import breve from "../assets/imagens/breve.jpg";
 
 /*import lista from "../assets/imagens/";
@@ -26,15 +27,23 @@ export function Projects() {
       link: "https://easybank-joeseraphy.vercel.app/",
       code: "https://github.com/JoeSeraphy/easybank-frontendMentor",
     },
-    /*{
+    {
       id: 3,
-      src: breve,
-      alt: "",
-      description: " ",
-      link: "",
-      code: "",
+      src: ageCal,
+      alt: "Calculadora de idade",
+      description: "DEsafio do frontendentor, projeto feito com HTML, CSS e JavaScript",
+      link: "https://age-calculator-joeseraphy.vercel.app/",
+      code: "https://github.com/JoeSeraphy/age-calculator-joeseraphy",
     },
     {
+      id: 4,
+      src: playerStranger,
+      alt: "playerStranger",
+      description: "Um player com as musicas que tocaram na serie",
+      link: "https://player-muisc.vercel.app/",
+      code: "https://github.com/JoeSeraphy/playerMuisc",
+    },
+    /*{
       id: 4,
       src: breve,
     },
