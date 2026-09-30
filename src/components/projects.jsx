@@ -2,13 +2,21 @@ import spacey from "../assets/imagens/projeto4.png";
 import easybank from "../assets/imagens/projeto1.png";
 import ageCal from "../assets/imagens/age-cal.png"
 import playerStranger from "../assets/imagens/playerStranger.png"
-import breve from "../assets/imagens/breve.jpg";
+import bronx from "../assets/imagens/bronxhero.png";
 
 /*import lista from "../assets/imagens/";
 import embreve from "../assets/imagens";*/
 
 export function Projects() {
   const projetos = [
+    {
+      id: 0,
+      src: bronx,
+      alt: "Bronx Multimarcas",
+      description: "Desenvolvimento de uma landing page responsiva focada em apresentação da marca, produtos e conversão.",
+      link: "https://bronxmultimarcas-sigma.vercel.app/",
+      code: "https://github.com/JoeSeraphy/bronx",  
+    },
     {
       id: 1,
       src: spacey,

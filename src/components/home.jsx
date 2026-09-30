@@ -22,20 +22,15 @@ export function Home() {
           <h2 className="text-4xl sm:text-6xl font-medium text-white">
             Joelson Silva
           </h2>
-          <p className="text-white text-xl py-4 max-w-md ">
-            Desenvolvedor FullStack
+          <p className="text-white text-2xl py-2 max-w-md ">
+            Desenvolvedor em Formação
           </p>
-          <div className="flex items-center gap-x-6">
+          <p className="text-white text-base py-2 max-w-md ">
+            Estudante de Análise e Desenvolvimento de Sistemas, com experiência profissional em suporte e tecnologia.
+          </p>
+          <div className="flex items-center justify-center gap-x-4 mt-4 md:justify-start">
             <a
-              className="flex items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-blue-500 hover:bg-blue-500 duration-300"
-              href="https://www.linkedin.com/in/joelson-silva-89b117119/"
-              target="_blank"
-            >
-              <FaLinkedin size={24} color="#fff" />
-              Linkedin
-            </a>
-            <a
-              className="flex items-center w-36 text-white gap-x-3 px-4 py-2 rounded border-2 border-green-500  hover:bg-green-500 duration-300"
+              className="flex w-full justify-center text-white gap-x-3 px-4 py-2 rounded border-2 border-green-500  hover:bg-green-500 duration-300"
               href="https://github.com/JoeSeraphy"
               target="_blank"
             >
